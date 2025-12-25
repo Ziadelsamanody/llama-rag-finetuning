@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# Model Files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+*.pkl
+*.pickle
+
+# HuggingFace Models & Cache
+models--*/
+embeddings/
+.cache/
+huggingface/
+transformers_cache/
+
+# Fine-tuned Models & Checkpoints
+checkpoint-*/
+llama-*/
+*.adapter_config.json
+adapter_model.safetensors
+
+# Vector Store & Index Files
+index/
+*.faiss
+*.index
+vectorstore/
+chroma_db/
+
+# Documents & Data
+documents/
+*.txt
+*.pdf
+*.doc
+*.docx
+data/
+corpus/
+
+# Media Files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.mp3
+*.wav
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Training Outputs
+training_output/
+logs/
+runs/
+wandb/
+tensorboard/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+*.log
+
+# Large Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+*.ipynb 
+WORKFLOW.md
+UPDATED_PROJECT_REVIEW.md
